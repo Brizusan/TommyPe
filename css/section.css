@@ -1,0 +1,22 @@
+.section{
+    /* border: 2px solid red; */
+    background-image: url('/assets/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-options{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 15px;
+}
+.section-options button{
+    text-transform: uppercase;
+    color: var(--colorSection);
+    font-weight: bold;
+    border: none;
+}
+.section-options button:hover{
+    background: var(--colorSection);
+    color: var(--colorBase);
+    transition: .8s ;
+}
