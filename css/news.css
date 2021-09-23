@@ -6,8 +6,8 @@
 .news-content{
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    padding: 20px 5%;
+    gap: 20px;
+    padding: 2em 5%;
 }
 .news-message h1{ 
     font-size: 1.3rem;
