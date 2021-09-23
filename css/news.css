@@ -1,0 +1,24 @@
+.news{
+    /* border:  2px solid red;] */
+    background: var(--colorActive);
+    color:var(--colorBase) ;
+}
+.news-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2em 5%;
+}
+.news-message h1{ 
+    font-size: 1.3rem;
+    letter-spacing:1.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.news-message p{
+    letter-spacing: 1.5px;
+    font-size: 1.1rem;
+}
+.control span i{
+    color: var(--colorFooter);
+}
